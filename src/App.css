@@ -1,0 +1,52 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.list_films {
+  list-style-type: none;
+}
+
+.card_film {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.favorite {
+  width: 49%;
+  height: 380px;
+}
+
+.film {
+  list-style-type: none;
+  text-align: start;
+}
+
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img__icon {
+  width: 300px;
+  background: darkcyan;
+}
+
+.form__search {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10PX;
+}
+
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
